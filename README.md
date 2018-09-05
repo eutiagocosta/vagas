@@ -1,8 +1,11 @@
 # Vagas.com
 
 ## Endpoint para cadastrar vagas de emprego
+
 Request:
+
 	POST http://localhost:9000/v1/vagas
+	
 Body:
 
 ```json 
@@ -14,12 +17,17 @@ Body:
    "nivel":3
 }
 ```
-Response: 201 (Created)
+Response: 201 (Created) Com id do recurso criado no atributo Location do header da resposta:
+
+	ex: Location → http://localhost:8080/v1/pessoas/574C7899-EF9D-4A15-B104-3F7285EDF610
 
 
 ## Endpoint para cadastrar pessoas
+
 Request:
+
 	POST http://localhost:9000/v1/pessoas
+	
 Body:
 	
 ```json
@@ -31,11 +39,16 @@ Body:
 }
 ```
 	
-Response: 201 (Created)
+Response: 201 (Created) Com id do recurso criado no atributo Location do header da resposta:
+
+	ex: Location → http://localhost:8080/v1/pessoas/574C7899-EF9D-4A15-B104-3F7285EDF610
 
 ## Endpoint para registrar candidatura de uma pessoa em uma vaga
+
 Request:
+
 	POST http://localhost:9000/v1/candidaturas
+	
 Body:
 	
 ```json
@@ -48,8 +61,11 @@ Body:
 Response: 200 (Ok)
 
 Endpoint responsavel pela listagem de candidaturas para uma vaga
+
 Request:
+
 	GET: http://localhost:9000/v1/vagas/1/candidaturas/ranking
+	
 Response: 200 (Ok)
 
 ```json
