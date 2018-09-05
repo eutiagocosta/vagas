@@ -19,7 +19,7 @@ Body:
 ```
 Response: 201 (Created) Com id do recurso criado no atributo Location do header da resposta:
 
-	ex: Location → http://localhost:8080/v1/pessoas/574C7899-EF9D-4A15-B104-3F7285EDF610
+	ex: Location → http://localhost:8080/v1/vagas/574C7899-EF9D-4A15-B104-3F7285EDF610
 
 
 ## Endpoint para cadastrar pessoas
