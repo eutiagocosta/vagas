@@ -2,6 +2,9 @@
 
 ## Endpoint para cadastrar vagas de emprego
 
+Link para documentação da API:
+	[Documentacao da API](localhost:9000/swagger-ui.html)
+
 Request:
 
 	POST http://localhost:9000/v1/vagas
