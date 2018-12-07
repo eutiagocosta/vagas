@@ -1,4 +1,4 @@
-# Vagas.com
+# Sistema de cadastro de vagas/candidatos
 
 ## Endpoint para cadastrar vagas de emprego
 
